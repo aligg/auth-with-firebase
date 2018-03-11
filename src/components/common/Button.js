@@ -33,5 +33,5 @@ const styles = {
   }
 }
 
-// remember, flex 1 means expand to fill as much content as possible
-export default Button
+// we have to do this since we're exporting from the index file (can't use default)
+export { Button }
